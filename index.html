@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="headernavigation">
+        <section class="logo">
+            <img src="assets/shop.jpg" alt="" class="logoimage">
+            <label for="logoimage">E-Groceries</label>
+        </section>
+        <div class="menu">
+            <button class="btnhome">Home</button>
+            <button class="btnourpage">Our Packages</button>
+            <button class="btncallus">Call Us</button>
+        </div>
+    </header>
+    <div class="labeltitle">
+        <h1>TOP RATED 2-GROCERIES SHOP IN INDONESIAN</h1>
+        <H3>Every Day with best ingredients</H3>
+    </div>
+<section class="container">
+   
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="assets/egroceries1.jpg" style="width:100%">
+          
+           
+        <div class="profil">
+            <img src="assets/woman.png" alt="">
+            
+            <div class="profilname">
+                <label for="profil" class="labelname">Retno Astuti</label>
+                <label for="profil" class="labeldetail">Ibu Rumah Tangga, 28 Tahun</label>
+                <h3>"Setiap Hari saya beli sayur dan buah fresh di sini"</h3>
+            </div>
+        </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="assets/gro.png" style="width:100%">
+          <div class="profil">
+            <img src="assets/woman.png" alt="">
+            
+            <div class="profilname">
+                <label for="profil" class="labelname">Retno</label>
+                <label for="profil" class="labeldetail">Ibu Rumah Tangga, 32 Tahun</label>
+                <h3>"Setiap Hari saya beli sayur dan buah fresh di sini"</h3>
+            </div>
+        </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="assets/gro2.jpg" style="width:100%">
+          <div class="profil">
+            <img src="assets/woman.png" alt="">
+            
+            <div class="profilname">
+                <label for="profil" class="labelname">Astuti</label>
+                <label for="profil" class="labeldetail">Ibu Rumah Tangga, 21 Tahun</label>
+                <h3>"Setiap Hari saya beli sayur dan buah fresh di sini"</h3>
+            </div>
+        </div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        
+        
+
+    <div class="contact">
+        <div class="form">
+        <H2>Contact Us</H2>
+        <h3>Sales akan mengubungi anda dalam waktu 1x24 jam</h3>
+        <label for="inputname">Your Name</label>
+        <input type="text" placeholder="First and last name" id="inputname" class="inputname">
+        <label for="inputemail">Email Address</label>
+        <input type="text" placeholder="example@gmail.com" id="inputemail" class="inputemail">
+        <label for="selectoption">Gender</label>
+        <select name="selectoption" id="">
+            <option value="m">Male</option>
+            <option value="f">Famale</option>
+            
+        </select><br>
+        <button class="btnsend" id="btnsend" onclick="validation()">Send</button>
+    </div>
+    </div>
+</section>
+<div class="keuntungan">
+    <div class="satu">
+        <div class="numberone">1</div>
+        <label for="numberone">E-groceries yang menawarkan kemudahan, kenyamanan, hingga promosi diyakini sebagai sebab utama laju penetrasi pasar yang cepat. Perkembangan pesat ini juga didorong oleh imbas pandemi dan pembatasan sosial</label>
+    </div>
+    <br><div class="dua"> 
+        <div class="number2">2</div>
+        <label for="">E-groceries menyediakan layanan Click & Collect yang memungkinkan pelanggan untuk membeli produk secara online dan mengambilnya langsung di toko fisik terdekat. Dengan begitu, pelanggan bisa mendapatkan produk terbaik langsung dari toko tanpa antre kapan pun waktu yang diinginkan</label>
+
+    </div> 
+    <br><div class="tiga">
+                <div class="number3">3</div>
+    </div>
+    
+</div>
+</div>
+<div class="ourpackage">Our Package</div>
+<div class="containerOP">
+    <div class="fv">
+    <div class="freshv">F</div>
+        <div class="sayur">
+        <label for="">Fresh Vegetable</label>
+        <label for="">Sayuran Segar langsung dari sumber pertanian terbaik</label>
+    </div>
+    </div>
+    <div class="ff"><div class="freshf">F</div>
+        <div class="buah">
+        <label for="">Fresh Fruit</label>
+        <label for="">Buah dengan Kuliatas terbaik dari local atau import dan harga yang menarik</label>
+    </div>
+    </div>
+    <div class="insd">
+    <div class="instant">I</div>
+        <div class="deliv">
+        <label for="">Instant Delivery</label>
+        <label for="">Dikirim Instan oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja kamu</label>
+    </div>
+    </div>
+    <div class="ki">
+    <div class="kitchen">K</div>
+        <div class="labelki">
+        <label for="">Kitchen Ingredient</label>
+        <label for="">Bumbu dapur lengkap untuk keperluan memasak kamu</label>
+    </div>
+    </div>
+    <div class="ks">
+    <div class="kitchenset">K</div>
+        <div class="labelks">
+        <label for="">Kitchen Set</label>
+        <label for="">Segaja jenis alat masak membantu kamu memasak</label>
+    </div></div>
+    <div class="bs">
+    <div class="bunding">B</div>
+        <div class="labelbs">
+        <label for="">Bunding Set</label>
+        <label for="">bingung mau masak apa? sudah tersedia paket untuk kamu masak di dapur</label>
+</div></div>
+</div>
+<br>
+<hr>
+<script src="js/script.js"></script>
+</body>
+</html>
